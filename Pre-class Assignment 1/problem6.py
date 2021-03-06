@@ -17,6 +17,10 @@ plt.ylabel("Thicness [m]")
 
 # Customization
 plt.tick_params(labelsize = 20)
-
-plt.plot(lst)
+plt.plot(lst, 
+    color = 'green',
+    linestyle = 'dashed', 
+    marker = 'x', 
+    markersize = 6)
+    
 plt.show()
