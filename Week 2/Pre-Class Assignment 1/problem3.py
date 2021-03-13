@@ -16,7 +16,7 @@ board = np.array(board_lst)
 board = np.reshape(board, (n, n))
 print("Total number of wheat on a chessboard of {} x {} squares: {}".format(n, n, board.sum()))
 
-# Average of each column
+# Average of each column array
 avg = board.sum(axis=0)
 avg = avg / n
 
