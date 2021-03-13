@@ -13,6 +13,8 @@ lst = np.random.multivariate_normal(mean, cov, 500)
 x = lst[:,0]
 y = lst[:,1]
 
-plt.scatter(x, y)
+plt.scatter(x, y, marker='+')
+plt.xlabel('x')
+plt.ylabel('y')
 
 plt.show()
