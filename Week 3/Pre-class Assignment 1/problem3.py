@@ -21,7 +21,7 @@ print(sample.info(verbose = True))
 print(df['target'].value_counts())
 
 # Check if there is a missing value in the feature quantity.
-print(df.isnull())
+print(df.isnull().sum())
 
 # Display the mean, standard deviation, and quartiles of the feature values at once.
 print(df.describe())
